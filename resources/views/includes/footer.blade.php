@@ -11,16 +11,8 @@
 </head>
 
 <body>
-    {{--header--}}
-    @include('includes.header')
-
-
-    <main>
-       <div>main</div>
-    </main>
-
     {{--footer--}}
-    @include('includes.footer')
+    <div>footer</div>
   
 
 </body>

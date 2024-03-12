@@ -20,8 +20,8 @@
         <div class="row">
         @foreach ($products as $product)
           <div class="card">
-            <img class="cover narrow" src="{{ $product['src']}}" alt="{{ $product['titolo']}}">
-              <h3> {{ $product ['titolo']}}</h3>
+            <img class="cover narrow" src="{{ $product['thumb']}}" alt="{{ $product['title']}}">
+              <h3> {{ $product ['title']}}</h3>
           </div>
         @endforeach
          

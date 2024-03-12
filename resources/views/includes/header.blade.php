@@ -20,16 +20,16 @@
         </div>
         <div class="links">
           <ul>
-            <li><a href="{{url('/')}}">CHARACTERS</a></li>
-            <li><a href="{{url('/products')}}">COMICS</a></li>
-            <li><a href="{{url('/movies')}}">MOVIES</a></li>
+            <li><a href="{{ route('home')}}">CHARACTERS</a></li>
+            <li><a href="{{ route('products')}}">COMICS</a></li>
+            <li><a href="{{ route('movies')}}">MOVIES</a></li>
             <li><a href="#">TV</a></li>
             <li><a href="#">GAMES</a></li>
             <li><a href="#">COLLECTIBLES</a></li>
             <li><a href="#">VIDEOS</a></li>
             <li><a href="#">FANS</a></li>
             <li><a href="#">NEWS</a></li>
-            <li><a href="{{url('/shop')}}">SHOP</a></li>
+            <li><a href="{{ route('shop')}}">SHOP</a></li>
           </ul>
         </div>
       </div>

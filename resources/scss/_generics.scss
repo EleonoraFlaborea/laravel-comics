@@ -35,3 +35,31 @@ li {
     justify-content: space-around;
     line-height: 100px;
 }
+
+main {
+    background-color: #1C1C1C;
+    min-height: 400px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.narrow {
+    height: 200px;
+    width: 150px;
+}
+
+.card {
+    display: inline;
+    padding-right: 20px;
+}

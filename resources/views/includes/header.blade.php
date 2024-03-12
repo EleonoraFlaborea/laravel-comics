@@ -15,20 +15,21 @@
     <header>
       <div class="navbar">
         <div class="logo"> 
-          <img src="../public/images/dc-logo.png" alt="dc-logo">
+          <img class="cover narrow" src="{{ asset('images/dc-logo.png')}}" alt="logo">
+
         </div>
         <div class="links">
           <ul>
-            <li><a href="#">CHARACTERS</a></li>
-            <li><a href="#">COMICS</a></li>
-            <li><a href="#">MOVIES</a></li>
+            <li><a href="{{url('/')}}">CHARACTERS</a></li>
+            <li><a href="{{url('/products')}}">COMICS</a></li>
+            <li><a href="{{url('/movies')}}">MOVIES</a></li>
             <li><a href="#">TV</a></li>
             <li><a href="#">GAMES</a></li>
             <li><a href="#">COLLECTIBLES</a></li>
             <li><a href="#">VIDEOS</a></li>
             <li><a href="#">FANS</a></li>
             <li><a href="#">NEWS</a></li>
-            <li><a href="#">SHOP</a></li>
+            <li><a href="{{url('/shop')}}">SHOP</a></li>
           </ul>
         </div>
       </div>

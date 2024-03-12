@@ -16,7 +16,17 @@
 
 
     <main>
-       <div>main</div>
+      <div class="col">
+        <div class="row">
+        @foreach ($products as $product)
+          <div class="card">
+            <img class="cover narrow" src="{{ $product['src']}}" alt="{{ $product['titolo']}}">
+              <h3> {{ $product ['titolo']}}</h3>
+          </div>
+        @endforeach
+         
+        </div>
+      </div>
     </main>
 
     {{--footer--}}
